@@ -23,4 +23,55 @@ Por esta razón, el cambio de nombre es obligatorio al momento de subirlo a prod
 
 ---
 
+# Requisitos del entorno
+
+## 🐍 Python
+
+* Python `3.13.12`
+
+## 📚 Librerías requeridas
+
+Instalar las siguientes librerías:
+
+```bash
+pip install eventlet
+pip install pyvisa
+pip install pyvisa-py
+pip install pyserial
+pip install python-socketio
+pip install requests
+pip install pythonnet
+```
+
+O bien:
+
+```bash
+pip install eventlet pyvisa pyvisa-py pyserial python-socketio requests pythonnet
+```
+
+---
+
+# Drivers y dependencias adicionales
+
+## 🔌 Driver CH340/CH341
+
+Descargar e instalar:
+
+https://www.wch-ic.com/downloads/ch341ser_exe.html
+
+## 🧩 Visual C++ Redistributable for Visual Studio 2015
+
+Descargar e instalar:
+
+https://www.microsoft.com/es-es/download/details.aspx?id=48145
+
+## ⚡ Controlador / IO Libraries Suite de Keysight
+
+Descargar e instalar:
+
+https://www.keysight.com/us/en/lib/software-detail/computer-software/io-libraries-suite-downloads-2175637.html
+
+---
+
 Ante cualquier cambio en este comportamiento, actualizar este documento.
+
